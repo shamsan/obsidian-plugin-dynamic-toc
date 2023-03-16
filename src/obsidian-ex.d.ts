@@ -1,7 +1,7 @@
-import "obsidian";
+import "obsidian"
 
 declare module "obsidian" {
-  interface TFile {
-    deleted: boolean;
-  }
+    interface TFile {
+        deleted: boolean
+    }
 }
