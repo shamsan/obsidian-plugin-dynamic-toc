@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### 0.1.1 (2023-03-16)
+* Automatically number subheadings in nested lists when using number bullets ([f0de752](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/f0de75297e3a8ba0045733e78b45c08e7a495415))
 
 
 ### Features
