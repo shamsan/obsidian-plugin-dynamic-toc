@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.1 (2023-03-16)
+
+
+### Features
+
+* add azure wiki provider ([d08797f](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/d08797f9594761aa2e2a173e541814f5f764dca5))
+* add devonthink and thebrain support ([8b5532f](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/8b5532f9e9558f403bf6af1b1254b731df6579e0))
+* add inline breakcrumb style ([93dba71](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/93dba71dcfad10bde5924ebf45f6e11b183a3691))
+* add insert command ([c2c0bdd](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/c2c0bdd48ca6286bb48e478f8c6cc04fc43be741))
+* add min and max depth options ([98ab991](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/98ab9916052c625ba6fd9e0e2f1563173c8c7a19))
+* add settings to override defaults globally ([79ba2fa](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/79ba2fa97c6432930a9125fde1ca3341150796ee))
+* add title support ([6a72d46](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/6a72d46b07656d8bbbf559df14469b8fe96bd524))
+* add varied style support ([f5afc17](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/f5afc1731e837568f6978b1cf9cf15b762cd95f5))
+* **dynamic:** add dymanic injection ([ac7b5be](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/ac7b5be3c432ed1b5b69bded6aefcdcb94b8f3b5))
+* initial proof of concept ([3c8562e](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/3c8562e5acac9afcff5fcf8fabe84ed27f8290b9))
+* **setting:** add support all renderer setting ([bdd8daa](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/bdd8daa89a33f3aaa19bd733a408f65a61790b03))
+* **settings:** add min and max header depth ([498eb90](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/498eb90e39aee244e18351c11bea443bffe60e5c))
+* support inconsistent heading depths ([3ffb6d7](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/3ffb6d70281b461527f9d0c6c30754efd65f7638))
+* support multiple matchers ([362a824](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/362a8246b6799c39f22ddeab0dac10199f9e2cf1))
+
+
+### Bug Fixes
+
+* add live preview fix styles ([cdabcae](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/cdabcaee8ef77fad74ffb1f3e20352f28083fbb6))
+* codeblock not rerendering live preview ([ee06781](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/ee067813482eca2f6b962a913d4f7ff255c33560))
+* correctly parse link headings with aliases ([a90275b](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/a90275b33a91c276fd34f0fc15d7eeb35b500568))
+* error when no matchers ([2723a6a](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/2723a6a9484d3b758bd7074536cf9ab9d3617b54))
+* **headings:** handle wiki link headings ([1f96b15](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/1f96b15e75b6d51f1ca8f66ba229035aeb781d74))
+* hide new extractor behind feature flag ([e82eac4](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/e82eac4e23ff1898dbf555fa8524b64bde502d00))
+* improve stability of dynamic injection on file changes ([e90a525](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/e90a525c7d0b5358183b408b72c9540f3286304a))
+* pass in key not the value ([9879ce1](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/9879ce1426a60f6565b11da252a77276fdd6c6bc))
+* renderer looking for incorrect elements ([25d1e90](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/25d1e905e822d2ef56da7e65c5a7b05f92646cdf))
+* set new header extractor to false ([4add54b](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/4add54b1e8ada2835f246636f7ba1f20842a7ba5))
+* use registerEvent ([9dfb443](https://github.com/shamsan/obsidian-plugin-dynamic-toc/commit/9dfb443b00f18254e350bf9a368d746ad13e15ec))
+
 ### [0.0.27](https://github.com/Aidurber/obsidian-plugin-dynamic-toc/compare/0.0.26...0.0.27) (2022-03-05)
 
 

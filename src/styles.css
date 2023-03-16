@@ -16,9 +16,22 @@
 }
 
 .is-live-preview .dynamic-toc ul {
+    padding-left: 0;
     white-space: normal;
 }
 
 .is-live-preview .dynamic-toc ol {
+    padding-left: 0;
     white-space: normal;
+    counter-reset: item;
+    list-style-type: none;
+}
+.is-live-preview .dynamic-toc ol ol {
+    padding-left: 2rem;
+}
+.is-live-preview .dynamic-toc ol > li {
+    counter-increment: item;
+}
+.is-live-preview .dynamic-toc ol > li::before {
+    content: counters(item, ".") " - ";
 }
